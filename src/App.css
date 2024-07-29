@@ -238,3 +238,67 @@
 .mobile-filters {
     visibility: hidden;
 }
+
+@media (max-width: 1200px) {
+    .main-section {
+        width: 80%;
+    }
+    .delete-task {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .main-section {
+        margin-top: 1%;
+        width: 90%;
+    }
+    .delete-task {
+        visibility: visible;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-section {
+        width: 90%;
+        margin-top: 5%;
+    }
+    .article {
+        font-size: 32px;
+    }
+    .background-image {
+        background-image: url("/images/bg-mobile-light.jpg");
+        height: 30vh;
+    }
+    .new-todo {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    }
+    .tasks-menu-wrapper {
+        margin-top: 5%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    }
+    .new-todo, .todo-task {
+        height: 65px;
+    }
+    .delete-task {
+        visibility: visible;
+    }
+    .filters {
+        display: none;
+    }
+    .todo-task, .new-todo, .menu {
+        padding: 0 7%;
+    }
+    .mobile-filters {
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 4%;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+        padding: 0 15%;
+        visibility: visible;
+    }
+}
